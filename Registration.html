@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration</title>
+    <style>
+    .mydiv{
+            background-color: rgb(236, 236, 226);
+            position: relative;
+            left: 460px;
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+        }
+        
+ .back-ground
+{
+    margin: 0;
+  padding: 0;
+  background-image: linear-gradient(orange, white, green
+);
+  height: 100vh;
+  overflow: hidden;
+}
+.card{
+    color: aqua;
+}
+</style>
+    
+</head>
+<body class="back-ground">
+<div>
+    <h1 align="center">
+        <font face="Arial" color="#AB000">
+        Registration
+    </font>
+    </h1>
+    <div  class="center mydiv">
+    <form name="reg-frm">
+        <center>
+        <table cellpadding="12">
+            <tr>
+        <td>Full name* </td>
+            <td><input type="text" name="fname" required placeholder="Enter your name"></td>
+    </tr>
+    <tr>
+        <td>Date of birth*</td>
+        <td><input type="date" name="Dob" required></td>
+    </tr>
+    <tr>
+        <td>Voter Number*</td>
+        <td>
+            <input type="text" required>
+        </td>
+    </tr>
+    <tr>
+    <td>Email-ID</td>
+        <td>
+            <input type="email" name="email-id" required placeholder="Enter your email">
+        </td>
+    </tr>
+   <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="male"checked>Male
+            <input type="radio" name="gender" value="female" checked>Female
+            <input type="radio" name="gender" value="other"checked>Other
+        </td>
+    </tr>
+    </tr>
+    <tr>
+        <td>Address*</td>
+        <td><textarea name="address" cols="21" rows="5" required placeholder="Enter your address"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>District*</td>
+        <td>
+            <select name="district" required>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Kolkata">Kolkata</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Status*</td>
+        <td>
+            <select name="status" required>
+            <option value="corporation">Corporation</option>
+            <option name="munisipality">Munisipality</option>
+            <option name="panchayet">Panchayet</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td><colspan="2" align="center" class="card">
+            <input type="reset" name="rs" value="Reset" >
+            <input type="submit" name="ok" value="Registration">
+        </td>
+    </tr>
+    </table>
+    </form>
+    </div>
+</div>
+</div>
+</div>
+</center>
+</script>
+</body>
+</html>
